@@ -1,0 +1,117 @@
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ header {
+   display: flex;
+   font-style: oblique;
+   color: #10a908;
+   background-color: rgb(18, 13, 13);
+   height: 65px;
+   align-items: center;
+ }
+
+ #fondo1 {
+   background-image: url(/assets.html/paracaidista.jpg)
+ }
+
+ nav {
+   background-color: none;
+   position: fixed
+ }
+
+ nav {
+   float: left;
+   margin-left: 30%;
+ }
+
+ nav ul {
+   list-style: none;
+   overflow: hidden
+ }
+
+ nav ul li {
+   float: left;
+   font-family: Arial, sans-serif;
+   font-size: 18px;
+ }
+
+ nav ul li a {
+   display: block;
+   padding: 20px
+ }
+
+ nav ul li:hover {
+   background-color: #10a908;
+   border-radius: 10px;
+   box-shadow: 20 0 20px #10a908;
+ }
+
+ p {
+   font-family: Arial, sans-serif;
+   display: grid;
+   place-items: center;
+ }
+
+ p {
+   padding-top: 10%;
+   padding-left: 15%;
+ }
+
+ #tabla {
+   margin-top: 4%;
+ }
+
+ #whatsapp {
+   position: fixed;
+   width: 50px;
+   right: 30%;
+   bottom: 15px;
+   z-index: 1;
+ }
+
+ #instagram {
+   position: fixed;
+   width: 50px;
+   right: 50%;
+   bottom: 15px;
+   z-index: 1;
+ }
+
+ #facebook {
+   position: fixed;
+   width: 50px;
+   right: 70%;
+   bottom: 15px;
+   z-index: 1;
+ }
+
+ @media (min-width: 130px) and (max-width: 1231px) {
+
+   #maps {
+     display: flex;
+     position: fixed;
+     margin-top: 14%;
+     margin-left: 30%;
+   }
+ }
+
+ #fondo1 {
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
+ }
+
+ @media (min-width: 130px) and (max-width: 1231px) {
+
+   #maps {
+     display: flex;
+     position: absolute;
+     margin-top: 0%;
+     margin-left: 16%;
+   }
+ }
