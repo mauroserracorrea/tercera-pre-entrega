@@ -115,3 +115,18 @@
      margin-left: 16%;
    }
  }
+
+
+ .titulos {
+   display: flex;
+   justify-content: center;
+ }
+
+
+ @media (min-width: 130px) and (max-width: 1231px) {
+   #video {
+     display: flex;
+     margin-top: 10%;
+
+   }
+ }

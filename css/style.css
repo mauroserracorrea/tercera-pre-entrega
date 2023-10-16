@@ -1,5 +1,11 @@
 #contacto {
   background-color: grey;
+  justify-content: center;
+}
+
+.titulos {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
